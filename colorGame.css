@@ -47,7 +47,7 @@ button:hover {
 
 #winMessage {
   display: inline-block;
-  width: 25%;
+  width: 23%;
 }
 
 .container {
@@ -72,3 +72,64 @@ button:hover {
   color: white;
   background: steelBlue;
 }
+
+
+@media (max-width: 1024px) {
+  .container {
+    padding: 50px 0;
+    max-width: 700px;
+  }
+
+  h1 {
+    font-size: 2.2em;
+    line-height: 1.7em;
+  }
+
+  #colorDisplay {
+    font-size: 150%;
+  }
+
+  .navigation {
+    height: 45px;
+  }
+
+  button{
+    font-size: 1.2em;
+  }
+
+  #winMessage {
+    width: 30%;
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+    padding: 40px 10px;
+    max-width: 400px;
+  }
+
+  h1 {
+    font-size: 1.9em;
+    line-height: 1.5em;
+  }
+
+  #colorDisplay {
+    font-size: 120%;
+  }
+
+  .navigation {
+    height: 30px;
+  }
+
+  button{
+    font-size: 0.8em;
+  }
+
+  #winMessage {
+    width: 25%;
+    font-size: 0.85rem;
+  }
+
+}
+
